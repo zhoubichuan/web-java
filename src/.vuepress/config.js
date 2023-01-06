@@ -1,11 +1,11 @@
 module.exports = {
   // 基础配置
-  base: '/web-redis/', // 部署站点的基础路径
-  description: 'redis相关知识点',
+  base: '/web-java/', // 部署站点的基础路径
+  description: 'java相关知识点',
   locales: {
     // 默认标题
     '/': {
-      title: 'Redis笔记',
+      title: 'Java笔记',
       description: ''
     }
   },
@@ -13,12 +13,12 @@ module.exports = {
     lineNumbers: true // 代码块显示行号
   },
   port: 3009,
-  dest: 'web-redis', // 指定 vuepress build 的输出目录
+  dest: 'web-java', // 指定 vuepress build 的输出目录
   serviceWorker: true, // pwa
 
   // 主题配置
   themeConfig: {
-    repo: 'https://github.com/zhoubichuan/web-redis', // 源码地址
+    repo: 'https://github.com/zhoubichuan/web-java', // 源码地址
     repoLabel: '查看源码', // (查看源码的)组件名称
     docsBranch: 'master', // git 源仓库 仓库分支
     editLinks: true, // 编辑链接
@@ -31,12 +31,12 @@ module.exports = {
         text: '基础知识',
         items: [
           {
-            text: '1.redis实践指南',
-            link: '/base/redis/1.index'
+            text: '1.JavaSE',
+            link: '/base/javase/1.index'
           },
           {
-            text: '2.redis相关实践',
-            link: '/base/practice/1.redis',
+            text: '2.JavaWeb',
+            link: '/base/javaweb/1.index',
           }
         ]
       },
@@ -44,18 +44,18 @@ module.exports = {
         text: '高级知识',
         items: [
           {
-            text: '1.组件精讲',
-            link: '/senior/use/1.index'
+            text: '1.SSM',
+            link: '/senior/ssm/1.index'
           },
           {
-            text: '2.TypeScript',
-            link: '/senior/typeScript/1.index'
+            text: '2.Spring Boot',
+            link: '/senior/springboot/1.index'
           },
         ]
       }
     ],
     sidebar: {
-      '/base/redis/': [
+      '/base/javase/': [
         '1.index',
         '2.webpack',
         '3.file',
@@ -71,20 +71,20 @@ module.exports = {
         '14.data',
         '15.api'
       ],
-      '/base/practice/': [
-        '1.redis',
-        '2.Jenkins',
-        '3.gitlab',
+      '/base/javaweb/': [
+        '1.index',
+        '2.tomcat',
+        '3.jsp',
         'vscode',
         'test',
         'prem',
         'i18n'
       ],
-      '/senior/use/': [
+      '/senior/ssm/': [
         '1.index',
-        '2.extend',
-        '3.componentCommunication',
-        '4.render',
+        '2.spring',
+        '3.springmvc',
+        '4.mybatis',
         '5.api',
         '6.form',
         '7.checkBox',
@@ -93,7 +93,7 @@ module.exports = {
         '10.table',
         '11.tree'
       ],
-      '/senior/typeScript/': [
+      '/senior/springboot/': [
         '1.index',
       ],
     },

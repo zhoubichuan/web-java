@@ -1,10 +1,10 @@
 {
-  "name": "web-redis",
+  "name": "web-java",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "author": "zhoubichaun@icloud.com",
-  "hommepage": "https://github.com/zhoubichuan/web-redis/",
+  "hommepage": "https://github.com/zhoubichuan/web-java/",
   "private": true,
   "license": "MIT",
   "scripts": {
@@ -24,8 +24,5 @@
     "@vuepress/plugin-pwa": "^1.8.2",
     "vuepress": "^1.8.2",
     "vuepress-plugin-boxx": "0.0.7"
-  },
-  "dependencies": {
-    "redis": "^4.5.1"
   }
 }

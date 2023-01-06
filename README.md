@@ -1,3 +1,3 @@
-# Redis 学习笔记
+# Java 学习笔记
 
-> Redis 学习笔记
+> Java 学习笔记
